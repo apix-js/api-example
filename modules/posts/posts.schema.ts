@@ -1,6 +1,8 @@
 import { Document } from "mongoose";
 import { zId } from "lib/helpers/mongooseZod";
 import { z } from "zod";
+// import { ISchemaExport } from "types";
+import {ISchemaExport} from "@apixjs/api";
 
 const schema = z.object({
     title: z.string(),
@@ -10,10 +12,8 @@ const schema = z.object({
 
 export interface IPost extends z.infer<typeof schema>, Document { }
 
-export default {
+const posSchema: ISchemaExport<IPost> = {
     name: "Post",
-    schema,
-    options: {
-        timestamps: false
-    }
+    schema
 }
+export default posSchema

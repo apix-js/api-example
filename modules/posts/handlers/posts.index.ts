@@ -1,9 +1,11 @@
-import createHandler from "lib/helpers/createHandler";
+// import createHandler from "lib/helpers/createHandler";
+
+import { createHandler } from '@apixjs/api'
 
 export default createHandler({
     path: "/",
     method: "GET",
-    schema:{
+    schema: {
         description: 'Get a user by ID',
         tags: ['users'],
         response: {

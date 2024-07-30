@@ -1,9 +1,10 @@
 import app from '@apixjs/api'
+import path from "node:path"
 
 app.boot({
-    logsPath: import.meta.dirname + "/logs",
-    modulePath: import.meta.dirname + "/modules",
-    server:{
+    logsPath: path.join(process.cwd(), 'logs'),
+    modulePath: path.join(process.cwd(), 'modules'),
+    server: {
         port: 5000,
         host: "127.0.0.1"
     },
