@@ -1,8 +1,7 @@
 import { Document } from "mongoose";
 import { zId } from "lib/helpers/mongooseZod";
 import { z } from "zod";
-// import { ISchemaExport } from "types";
-import {ISchemaExport} from "@apixjs/api";
+import { ISchemaExport } from "@apixjs/api";
 
 const schema = z.object({
     title: z.string(),

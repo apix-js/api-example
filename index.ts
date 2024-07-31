@@ -1,7 +1,7 @@
-import app from '@apixjs/api'
+import {ApixJs} from '@apixjs/api'
 import path from "node:path"
 
-app.boot({
+ApixJs.boot({
     logsPath: path.join(process.cwd(), 'logs'),
     modulePath: path.join(process.cwd(), 'modules'),
     server: {
