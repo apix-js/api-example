@@ -1,4 +1,4 @@
-import {ApixJs} from '@apixjs/api'
+import { ApixJs } from '@apixjs/api'
 import path from "node:path"
 
 ApixJs.boot({

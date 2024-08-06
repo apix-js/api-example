@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@apixjs/api':
-        specifier: ^1.0.7
-        version: 1.0.7
+        specifier: ^1.0.8
+        version: 1.0.8
     devDependencies:
       nodemon:
         specifier: ^3.1.4
@@ -21,8 +21,8 @@ importers:
 
 packages:
 
-  '@apixjs/api@1.0.7':
-    resolution: {integrity: sha512-DWt/CPYBPm3UBYW26O12OFbfrQoDZN0EhDyVj3LiTvqHnSue7WKDaEdyMuMv3qtUx77Y9mW0VbQLLgsch0ezUw==}
+  '@apixjs/api@1.0.8':
+    resolution: {integrity: sha512-AwQID9cQ5dgydlfDWJ1xWRY+mKKaOEOIQl4v7XubSggVc5g3g2Ino2euw1D2vANikya+VC3Q1qbJgZjLqhZ4bA==}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -1082,7 +1082,7 @@ packages:
 
 snapshots:
 
-  '@apixjs/api@1.0.7':
+  '@apixjs/api@1.0.8':
     dependencies:
       '@fastify/autoload': 5.10.0
       '@fastify/compress': 7.0.3
