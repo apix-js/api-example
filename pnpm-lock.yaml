@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@apixjs/api':
-        specifier: ^1.0.8
-        version: 1.0.8
+        specifier: ^1.0.10
+        version: 1.0.10
     devDependencies:
       nodemon:
         specifier: ^3.1.4
@@ -21,8 +21,8 @@ importers:
 
 packages:
 
-  '@apixjs/api@1.0.8':
-    resolution: {integrity: sha512-AwQID9cQ5dgydlfDWJ1xWRY+mKKaOEOIQl4v7XubSggVc5g3g2Ino2euw1D2vANikya+VC3Q1qbJgZjLqhZ4bA==}
+  '@apixjs/api@1.0.10':
+    resolution: {integrity: sha512-Xd1BhVWVVcgsGFBwBGU/If83kra6Z3PzI3RJ7OBKriJRf1SaRlhTzrjJUOPIg7zN3ZKAcYbpASc/BpR3mg4fbg==}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -706,8 +706,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@8.5.1:
-    resolution: {integrity: sha512-OhVcwVl91A1G6+XpjDcpkGP7l7ikZkxa0DylX7NT/lcEqAjggzSdqDxb48A+xsDxqNAr0ntSJ1yiE3+KJTOd5Q==}
+  mongoose@8.5.2:
+    resolution: {integrity: sha512-GZB4rHMdYfGatV+23IpCrqFbyCOjCNOHXgWbirr92KRwTEncBrtW3kgU9vmpKjsGf7nMmnAy06SwWUv1vhDkSg==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -1082,7 +1082,7 @@ packages:
 
 snapshots:
 
-  '@apixjs/api@1.0.8':
+  '@apixjs/api@1.0.10':
     dependencies:
       '@fastify/autoload': 5.10.0
       '@fastify/compress': 7.0.3
@@ -1097,7 +1097,7 @@ snapshots:
       fastify: 4.28.1
       fastify-plugin: 4.5.1
       loading-cli: 1.1.2
-      mongoose: 8.5.1
+      mongoose: 8.5.2
       zod: 3.23.8
     transitivePeerDependencies:
       - '@aws-sdk/credential-providers'
@@ -1786,7 +1786,7 @@ snapshots:
       bson: 6.8.0
       mongodb-connection-string-url: 3.0.1
 
-  mongoose@8.5.1:
+  mongoose@8.5.2:
     dependencies:
       bson: 6.8.0
       kareem: 2.6.3
